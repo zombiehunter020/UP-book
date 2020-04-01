@@ -1,0 +1,195 @@
+#title{
+  text-align: center;
+  color: white;
+  background-color: blue
+}
+
+body{
+  background-image: url(https://cdn.discordapp.com/attachments/500069403409514496/692502194884182056/623064.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-emplate-row: 500px;
+  grid-gap: 10px;
+  justify-items: center
+}
+
+#pic{
+  width: 100%
+}
+
+#name{
+  color: black;
+  font-size: 25px;
+  font-weight: 900;
+  background-color: white;
+  text-align: center;
+}
+
+#quote{
+  color: blue;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: white;
+  text-align: center;
+}
+
+#superlative{
+  color: purple;
+  font-size: 25px;
+  font-weight: 900;
+  background-color: white;
+  text-align: center;
+  animation: .8s shake infinite alternate;
+}
+
+@keyframes shake {
+  0% { transform: skewX(-15deg); }
+  5% { transform: skewX(15deg); }
+  10% { transform: skewX(-15deg); }
+  15% { transform: skewX(15deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }  
+}
+
+#pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+#next{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#back{
+  background-color: #E30206;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer; 
+}
+
+#other{
+  background-color: #FFA600;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#other:hover {
+  background-color: #778899;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+#next:hover {
+  background-color: #778899;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+#back:hover {
+  background-color: #778899;
+  color: black;
+  transition-duration: 0.4s;
+}
+
+#profile{
+  background-color: #72C1E0;
+  border-radius: 8px;
+  border: solid;
+  border-color: black;
+}
+
+#pic:hover {
+animation: rotation 1.8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#imageInput {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+#Image {
+  margin-left:-95px;
+}
+
+#Form {
+  background-color: blue;
+  margin-top: -25px
+}
+
+.word01{
+  display: inline-block;
+  color:white;
+  font-size: 15px;
+  position: relative;
+}
+
+#name2{
+margin-left:5px
+}
+
+#quote2{
+margin-left:5px
+}
+
+#superlative2{
+margin-left:5px
+}
+
+#submit{
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 2px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 5px;
+  position: relative;
+}
+
+#submit:hover{
+  background-color: blue;
+  color: white;
+  transition-duration: 0.4s;
+}
